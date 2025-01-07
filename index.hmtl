@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Esta pagina web trata sobre ejercicio que vamos a ir haciendo los alumnos de la clase de 1ero de DAM">
+    <meta name="keywords" content="deberes, html, paginas web">
+    <meta name="author" content="Sergio Urbaneja Sirigu">
+    <meta name="copyright" content="Sergio Urbaneja Sirigu">
+    <title>Mi página de prueba</title>
+    <link rel="shortcut icon" href="iconoo.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Historia de HTML</h1>
+        <p>Desde 1989 hasta nuestros días</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="formatotexto.html">Formato del texto</a></li>
+                <li><a href="Listas.html">Listas</a></li>
+                <li><a href="tablas.html">Tabla</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       
+        <section>
+            <h2>Ejemplos de Entidades</h2>
+            <p>EJEMPLOS DE ESPACIOS EN BLANCO</p>
+            <p>&nbsp;&nbsp;&nbsp;Este &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;texto&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tiene <br> &nbsp;&nbsp;&nbsp;&nbsp;espacios</p>
+            <p>EJEMPLOS DE EMOJIS: &#169; &#128513;&#128513;&#128513;</p>
+            <p>EJEMPLO DE SALTO DE LINEA, SIMBOLOS Y EMOJIS:</p>
+            <p>2 es &#60; 3 <br> Hoy hace muy buen día &#128513;</p>
+        </section>
+
+       
+        <section>
+            <h2>Ejemplo de Formateo de Texto</h2>
+            <h3>Subíndex y Superíndex</h3>
+            <p>El agua tiene la fórmula H<sub>2</sub>O. La aceleración es 9.81 m/s<sup>2</sup>.</p>
+            <h3>Importancia y Énfasis</h3>
+            <p>Este es un texto <strong>importante</strong> y un texto enfático.</p>
+            <h3>Citas y Referencias</h3>
+            <blockquote>"La ciencia es un modo de pensar mucho más que un cuerpo de conocimiento." - Carl Sagan</blockquote>
+        </section>
+
+       
+        <section>
+            <h2>Listas y Estructuras</h2>
+            <h3>Lista Simple</h3>
+            <ul>
+                <li>Andalucía</li>
+                <li>Galicia</li>
+                <li>Valencia</li>
+            </ul>
+            <h3>Lista Ordenada</h3>
+            <ol>
+                <li>Andalucía</li>
+                <li>Galicia</li>
+                <li>Valencia</li>
+            </ol>
+            <h3>Lista de Definiciones</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Lenguaje de marcado para estructurar contenido.</dd>
+                <dt>CSS</dt>
+                <dd>Lenguaje de estilo para documentos HTML.</dd>
+                <dt>JavaScript</dt>
+                <dd>Lenguaje de programación para funcionalidades web.</dd>
+            </dl>
+        </section>
+    </main>
+
+    <footer>
+        2024 Sergio Urbaneja Sirigu | Contacto: juan.perez@example.com &copy; 2010-2011
+        </footer>
+</body>
+</html>
