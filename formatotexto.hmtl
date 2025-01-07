@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+        <meta name="description" content="Esta pagina web trata sobre ejercicio que vamos a ir haciendo los alumnos de la clase de 1ero de DAM" />
+		<meta name="keywords" content="deberes, html, paginas web"/>
+        <meta name="author" content="Sergio Urbaneja Sirigu" />
+        <meta name="copyright" content="Sergio Urbaneja Sirigu" />
+        <title>Mi pagina de prueba</title>
+    <link rel="shortcut icon" href="iconoo.jpeg" type="image/jpeg" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Historia de HTML</h1>
+        <p>Desde 1989 hasta nuestros días</p>
+        <nav>
+    <ul>
+    <li> <a href="index.html">Inicio</a></li> 
+    <li> <a href="formatotexto.html">Formato del texto</a></li>      
+    <li> <a href="Listas.html">Listas</a></li>
+    <li> <a href="tablas.html">Tabla</a></li>
+    <li> <a href="proyectos.html">Proyectos</a></li>
+    <li> <a href="formularios.html">Formularios</a></li>
+</ul>
+</nav>
+</header>
+<section>
+<h2>Ejemplo de Formateo de texto</h2>
+ <h3> Subíndex y superindex</h3>
+ <p>El agua tiene la fórmula química H<sub>2</sub> 0, donde <sub>2</sub> es el subindice que indica el número de átomos de hidrógeno.</p>
+ <p>La aceleración debida a la gravedad es aproximadamente 9.81 m/s<sup>2</sup> , donde <sup>2</sup> es el superindice.</p>
+</section>
+<section>
+ <h3>Importancia y Enfasis</h3>
+<p>Este es un texto <strong>importante</strong> y es un texto enfático.</p> 
+</section>
+<section>
+<h3>Citas y Referencias</h3>
+<p>&nbsp;&nbsp;&nbsp; "La ciencia es un modo de pensar mucho mas que un cuerpo de conocimiento." - Carl Sagan</p>
+</section>
+<section>
+<h3>Tacado y Texto Insertado</h3>
+<p>En este ejemplo, las etiquetas <del>y <ins>se utilizan para mostrar un cambio en la fecha de entrega del informe, indicando lo que se ha eliminado y lo que se ha añadido.</ins> </del></p>
+<p>El proyecto inicial era entregar el informe el <del>15 de octubre </del> <ins>30 de octubre.</ins></p>
+<p>Ademas hemos <del> eliminado</del> alguna seciones y <u>añadido</u> nueva informacion relevante</p>
+</section>
+<section>
+<h4>otro ejemplo:</h4>
+<p>Esto es un <del>texto tachado</del> y esto es un <u>texto insertado.</u></p>
+</section>
+<section>
+<h3>Código de Programación</h3>
+<p>Un ejemplo de codigo en Python:</p>
+<p><code>def hola_mundo():<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;print("¡Hola, mundo!")</code></p>
+</section>
+<section>
+<h3>Abreviaturas</h3>
+<p>La abreviatura de <abbr title='PF'>P.F.</abbr> es comúnmente utilizada.</p>
+</section>
+<section>
+
+<h3>Información de Contacto</h3>
+<p> Puedes contactar a Juan Pérez en uan.perez@example.com</p>
+</section>
+<footer>
+    2024 Sergio Urbaneja Sirigu | Contacto: juan.perez@example.com &copy; 2010-2011
+    </footer>
+</body>
+</html>
